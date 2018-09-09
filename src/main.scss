@@ -1,0 +1,37 @@
+/*
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+
+// Theme variables, must be included before the libraries to allow overriding defaults
+//@import "theme/theme-variables";
+
+// 3rd party libraries
+//@import "~bootstrap/scss/bootstrap";
+//@import "~@fortawesome/fontawesome-free-webfonts/scss/fontawesome.scss";
+//@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-brands.scss";
+//@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-regular.scss";
+//@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-solid.scss";
+
+// Theme customization
+@import "theme/theme";
+
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+//@import "../src/theme/bootstrap.min.css";
+@import "../src/theme/animate.min.css";
+@import "../src/theme/bootstrap-submenu.css";
+@import "../src/theme/bootstrap-select.min.css";
+@import "../src/theme/leaflet.css";
+@import "../src/theme/map.css";
+@import "../src/theme/fonts/font-awesome/css/font-awesome.min.css";
+@import "../src/theme/fonts/flaticon/font/flaticon.css";
+@import "../src/theme/fonts/linearicons/style.css";
+@import "../src/theme/jquery.mCustomScrollbar.css";
+@import "../src/theme/dropzone.css";
+@import "../src/theme/magnific-popup.css";
+@import "../src/theme/custom.css";
+@import "../src/theme/style.css";
+
+@import "../src/theme/ie10-viewport-bug-workaround.css";
+@import "../src/theme/skins/default.css";
